@@ -1,13 +1,13 @@
 <template>
-  <section  id="skills" class="w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-10">
+  <section  id="skills" class="overflow-hidden w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-10">
     
     <!-- عنوان القسم -->
-    <h2 class="text-4xl md:text-5xl font-extrabold text-blue-500 mb-8 font-sans">
+    <h2  class="text-4xl md:text-5xl font-extrabold text-blue-500 mb-8 font-sans">
       المهارات
     </h2>
 
     <!-- قائمة المهارات -->
-    <div 
+    <div data-aos="fade-right" data-aos-delay="100"
    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 w-full max-w-6xl">
       <div 
         v-for="skill in skills" 

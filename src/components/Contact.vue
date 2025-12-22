@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-8">
+  <section id="contact" class=" overflow-hidden w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-8">
 
     <!-- عنوان القسم -->
     <h2 class="text-4xl md:text-5xl font-extrabold text-blue-500 mb-8 font-sans">
@@ -12,7 +12,7 @@
     </p>
 
     <!-- الأزرار مع الأيقونات -->
-    <div class="flex flex-col sm:flex-row gap-4 mt-6">
+    <div data-aos="flip-up" data-aos-delay="100" class="flex flex-col sm:flex-row gap-4 mt-6">
 
       <!-- واتساب 1 -->
       <a href="https://wa.me/0911847255" target="_blank"

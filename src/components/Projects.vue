@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-12"
+    class="overflow-hidden w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-12"
   >
     <!-- عنوان مشاريع Desktop -->
     <h2
@@ -10,7 +10,7 @@
       مشاريع Desktop
     </h2>
 
-    <div
+    <div data-aos="fade-left" data-aos-delay="100"
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl"
     >
       <div
@@ -59,7 +59,7 @@
       مشاريع Web
     </h2>
 
-    <div
+    <div data-aos="fade-right" data-aos-delay="100"
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl"
     >
       <div

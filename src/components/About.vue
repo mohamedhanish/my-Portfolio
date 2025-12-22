@@ -1,6 +1,6 @@
 <template>
   <section id="about"
-    class="pt-24 w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-16 gap-10">
+    class=" overflow-hidden pt-24 w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-16 gap-10">
 
     <!-- النص -->
     <div data-aos="fade-right" data-aos-delay="500" class="flex-1 flex flex-col justify-center items-start gap-6">
