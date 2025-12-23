@@ -1,22 +1,20 @@
 <template>
-  <section  id="skills" class="overflow-hidden w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-10">
-    
+  <section id="skills"
+    class="overflow-hidden w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-20 py-16 gap-10">
+
     <!-- عنوان القسم -->
-    <h2  class="text-4xl md:text-5xl font-extrabold text-blue-500 mb-8 font-sans">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-blue-500 mb-8 font-sans">
       المهارات
     </h2>
 
     <!-- قائمة المهارات -->
     <div data-aos="fade-right" data-aos-delay="100"
-   class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 w-full max-w-6xl">
-      <div 
-        v-for="skill in skills" 
-        :key="skill.name" 
-        class="flex flex-col items-center justify-center p-6 rounded-2xl cursor-pointer 
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 w-full max-w-6xl">
+      <div v-for="skill in skills" :key="skill.name" class="flex flex-col items-center justify-center p-6 rounded-2xl cursor-pointer 
                bg-gradient-to-br from-blue-400 to-blue-600 
                shadow-[0_4px_15px_rgba(59,130,246,0.5)]
                transition-all duration-300 hover:scale-105">
-        <img :src="skill.icon" :alt="skill.name" class="w-16 h-16 mb-4 object-contain"/>
+        <img :src="skill.icon" :alt="skill.name" class="w-16 h-16 mb-4 object-contain" />
         <span class="text-lg font-medium text-white font-sans">{{ skill.name }}</span>
       </div>
     </div>
@@ -36,5 +34,3 @@ const skills = [
   { name: "Git", icon: new URL('../assets/skills/github.svg', import.meta.url).href },
 ];
 </script>
-
-

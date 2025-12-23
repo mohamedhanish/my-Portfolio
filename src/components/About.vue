@@ -24,7 +24,7 @@
 
     <!-- الصورة -->
     <div data-aos="fade-left" data-aos-delay="500"
-  class="flex-1 flex justify-center items-center rounded-full shadow-lg shadow-blue-500">
+      class="flex-1 flex justify-center items-center rounded-full shadow-lg shadow-blue-500">
       <img src="../assets/portfolio/portfolio-app.jpg" alt="محمد مسعود"
         class="rounded-full shadow-lg w-80 md:w-full object-cover">
     </div>
