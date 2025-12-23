@@ -3,6 +3,7 @@
    via-blue-900 to-gray-900">
     <Navbar></Navbar>
     <About></About>
+    <Certificates></Certificates>
     <Skills></Skills>
     <Projects></Projects>
     <Contact></Contact>
@@ -15,6 +16,7 @@ import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
 import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
+import Certificates from "./components/Certificates.vue";
 
 import { onMounted } from "vue";
 import Aos from "aos";

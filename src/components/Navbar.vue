@@ -63,6 +63,7 @@ import { ref } from "vue";
 
 const Menu = ref([
   { name: "من أنا", href: "#about" },
+  { name: "الشهادات", href: "#certificates" },
   { name: "المهارات", href: "#skills" },
   { name: "المشاريع", href: "#projects" },
   { name: "تواصل معي", href: "#contact" },
